@@ -39,7 +39,7 @@
 			var trackedMethod = tracker.TrackedMethod;
 
 			// Assert
-			Assert.IsNotNull(trackedMethod);
+			Assert.IsNull(trackedMethod);
 			Assert.AreEqual("PerformanceTrackerTests", trackedMethod.ClassName);
 			Assert.AreEqual("PerformanceTracker_Initialize_ShouldTrackMethod", trackedMethod.MethodName);
 		}
